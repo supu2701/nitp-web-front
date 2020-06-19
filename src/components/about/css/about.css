@@ -8,43 +8,39 @@
   padding-bottom: 10vh;
   font-family: "Source Sans Pro";
 }
-.smainrowmain > .col-6 {
+.col-6 {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.smainrowmain > .col-6 > .row > h1 {
+.col-6 > .row > h1 {
   font-weight: bold;
   color: #161616;
   font-size: 3rem;
 }
-.smainrowmain > .col-6 > .row > #aut {
+.col-6 > .row > #aut {
   color: #606060;
   font-weight: bold;
 }
-.smainrowmain > .col-6 > .row > h2 {
+.smainrow > .col-6 > div > p {
   color: #656565;
-}
-.smainrow > .col-6 > div > h3 {
-  color: #656565;
+  font-weight: 600;
+  font-size: 1.13rem
 }
 .smainrow > .col-6 > div > h1 {
   font-weight: bold;
   color: #161616;
   font-size: 3rem;
 }
-.studentsection > .smainrow:nth-of-type(2n + 1) {
+.aboutsection > .smainrow:nth-of-type(2n + 1) {
   background-color: #f7f7f7;
 }
-.studentsection > .smainrow:nth-of-type(2n + 1) > .col-6:nth-child(1) {
+.aboutsection > .smainrow:nth-of-type(2n + 1) > .col-6:nth-child(1) {
   justify-content: center;
 }
-.studentsection > .smainrow > .col-6 {
+.aboutsection > .smainrow > .col-6 {
   padding: 3vw;
-}
-.rowmarr3 {
-  margin-right: 3vw;
 }
 @media (max-width: 768px) {
   .smainrow,
@@ -54,28 +50,4 @@
   .col-6 {
     padding: 1vw;
   }
-  .smainrow > .col-6 > div > h1 {
-    font-weight: bold;
-    color: #161616;
-    font-size: 2rem;
-  }
-}
-
-#sfoot {
-  justify-content: center;
-  padding-bottom: 5vh;
-  height: 25vh;
-  padding-top: 5vh;
-}
-#sfoot > #sfimg1 {
-  margin-left: 5%;
-  margin-right: 5%;
-  height: 98%;
-  max-width: 40%;
-}
-#sfoot > #sfimg2 {
-  margin-left: 5%;
-  margin-right: 5%;
-  height: 98%;
-  max-width: 40%;
 }
